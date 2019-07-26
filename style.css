@@ -1,0 +1,50 @@
+body {
+    background-image: url("");
+}
+
+header{
+	display: inline-flex;
+}
+
+header img{
+	height: 150px;
+}
+
+header h1{
+    margin-left: 0  70;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+ul {
+	background-color: #dddddd;
+	border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+li {
+	display: inline;
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li a {
+	color: #666;
+	display: block;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.img{
+	max-height: 20px;
+	max-width: 20px;
+}
